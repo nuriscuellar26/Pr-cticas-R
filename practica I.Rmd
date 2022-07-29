@@ -1,0 +1,91 @@
+---
+title: "Untitled"
+author: "Abigail Ramos"
+date: "29/7/2022"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+demo(graphics)
+```
+
+```{r}
+demo(image)
+```
+
+```{r}
+demo(persp)
+```
+
+```{r}
+demo(plotmath)
+```
+
+```{r}
+demo(intervals)
+```
+
+```{r}
+demo(lattice)
+```
+
+```{r}
+objects()
+```
+
+```{r}
+dir("C:/", pattern = "^[a-p]", full.names=TRUE)
+```
+
+```{r}
+list.files("C:/", pattern = NULL, all.files = TRUE, full.names = FALSE)
+```
+
+```{r}
+getwd()
+```
+
+```{r}
+2+10*3/5
+```
+
+```{r}
+3^100
+format(3^100, sci = FALSE)
+```
+
+```{r}
+y <- format(3^100, digits = 15)
+y
+```
+
+```{r}
+round(pi, 4)
+```
+
+```{r}
+trunc(pi)
+floor(pi)
+ceiling(pi)
+```
+
+```{r}
+n = 150
+factorial(n)
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
